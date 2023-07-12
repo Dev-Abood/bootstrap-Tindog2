@@ -1,0 +1,106 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  height: 690px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.space{
+  margin-top: 5px;
+}
+
+.test-title{
+  text-align: center;
+}
+
+.centeringstuff{
+  margin-bottom: 40px;
+}
+
+#testimonial{
+  --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+.center-text{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top:50px;
+}
+
+.center-text2{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.MIDDLE{
+  padding-top: 100px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 10px;
+}
+
+.img{
+  height: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+
+#pricing{
+  margin-top:45px;
+}
+
+#hanging-icon{
+  margin-bottom: 0px;
+}
+
+
+#footlast{
+  height: 350px;
+}
+
+.footersize>.gradient-background{
+  height: 310px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#pricing{
+  margin-top: 27px;
+}
+
+.toup{
+  position: relative;
+  bottom: 50px;
+}
